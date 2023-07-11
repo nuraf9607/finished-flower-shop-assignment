@@ -52,7 +52,7 @@ ol[role="list"] {
     gap: 4rem;
     min-height: 96vh;
     background-color: hsla(347, 74%, 61%, 0.1);
-    padding: 1.25rem 2.6875rem;
+    padding: 1.25rem 2.6875rem 0rem 2.6875rem;
 }
 
 .text-container {
@@ -192,7 +192,7 @@ button {
 }
 
 .third-section__wrapper> :nth-child(1) {
-    flex-basis: 40%;
+    flex-basis: 50%;
 }
 
 .third-section__wrapper__spacer {
@@ -207,7 +207,7 @@ button {
     max-width: 65.25rem;
 }
 
-.subcription-container {
+.subscription-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
