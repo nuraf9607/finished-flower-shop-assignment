@@ -1,0 +1,276 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Lato', sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+ul[role="list"],
+ol[role="list"] {
+    list-style: none;
+}
+
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    min-height: 96vh;
+    background-color: hsla(347, 74%, 61%, 0.1);
+    padding: 1.25rem 2.6875rem;
+}
+
+.text-container {
+    max-width: 31rem;
+    align-self: center;
+    display: grid;
+    gap: 1rem;
+}
+
+h1 {
+    color: #272727;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: .9rem;
+}
+
+.hero-pic {
+    max-width: 29rem;
+    align-self: flex-end;
+
+}
+
+button {
+    padding: .6rem 1.8rem;
+    border-radius: 0.5rem;
+    background: #E55473;
+    border: 0;
+    outline: 0;
+    color: white;
+}
+
+
+
+/* //////////////////////////////second section////////////////// */
+
+
+
+.flower-second-section,
+.fourth-section {
+    padding: 8rem 2rem 5rem 2rem;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+    gap: 2rem;
+}
+
+.image-container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 0.625rem;
+}
+
+.image-container p {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 4rem;
+}
+
+.image-wrapper {
+    background-color: red;
+    max-width: 20rem;
+    padding: 4rem 3rem 0 4rem;
+    border-radius: 11rem 11rem 0 0
+}
+
+.image-filling {
+    height: 100%;
+}
+
+.pink-clr {
+    background-color: hsla(331, 67%, 39%, 0.15);
+}
+
+.blue-clr {
+    background-color: hsla(184, 94%, 32%, 0.15);
+}
+
+.green-clr {
+    background-color: hsla(90, 76%, 28%, 0.15);
+}
+
+.flower-text-container {
+    text-align: center;
+    max-width: 31rem;
+}
+
+.title {
+    color: #272727;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.4rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    text-align: center;
+    padding: 2rem 6rem;
+    margin: 4rem 0;
+    background-color: hsla(0, 0%, 15%, 0.05);
+}
+
+.flex div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+
+
+/* ////////////////////////third section .///////////////// */
+.third-section {
+    padding: 5rem 2rem;
+    background-color: hsla(347, 74%, 61%, 0.05);
+}
+
+.third-section__wrapper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.third-section__wrapper> :nth-child(1) {
+    flex-basis: 40%;
+}
+
+.third-section__wrapper__spacer {
+    margin-bottom: 1rem;
+}
+
+
+/* //////////////////////////fourth section/////////////////////////// */
+
+
+.max-width {
+    max-width: 65.25rem;
+}
+
+.subcription-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("Flower\ Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: 9rem 4rem;
+    margin-bottom: 6rem;
+}
+
+.input-container {
+    width: 80%;
+    display: flex;
+    gap: 1rem;
+    margin-top: 2.7rem;
+}
+
+input[type=email] {
+    width: 70%;
+    outline: 0;
+    border: 0;
+    padding-left: 2rem;
+    border-radius: .5rem;
+}
+
+
+
+
+
+
+/* /////////////////////////////////footer///////////////////// */
+
+footer {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-color: #111010;
+    color: white;
+    padding: 7rem 2rem;
+}
+
+span {
+    color: hsla(347, 74%, 61%, 1);
+}
+
+.footer_title {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.footer_description {
+    font-size: .9rem;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
